@@ -1,11 +1,13 @@
 body {
     margin: 0;
     font-family: 'TTLakes', sans-serif;
+    background-color: #F8F8F8;
 }
 
 button {
     font-family: inherit;
 }
+
 
 .header {
     display: flex;
@@ -13,6 +15,7 @@ button {
     padding-bottom: 18.59px;
     padding-left: 16px;
     padding-right: 16px;
+    background-color: #FFFFFF;
 }
 
 .header__left {
@@ -89,9 +92,12 @@ button {
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #F8F8F8;
+    padding-bottom: 35px;
+}
+
+.main__heading-line {
+    display: flex;
 }
 
 .main__highlight {
@@ -135,3 +141,40 @@ button {
    background-color: #FFFFFF;
    border-radius: 6px;
 }
+
+.main__section-aboutus {
+    margin-top: 24px;
+}
+
+.main__text-aboutus {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main__readmore {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.main__button-readmore {
+    background: none;
+    background-image: url(statics/expand.png);
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-position: center;
+    background-size: contain;
+    margin-right: 8px;
+}
+
+.main__image-aboutus {
+    width: 100%;
+}
+
