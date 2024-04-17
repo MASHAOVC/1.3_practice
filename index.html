@@ -3,27 +3,35 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги и сервисы</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
- <header class="header">
+    <header class="header">
     
-    <div class="header__left">
-        <button class="header__button-burger"></button>
-        <img class="header__logo" src="statics/Group.png">
-    </div>
+        <div class="header__left">
+            <button class="header__button-burger"></button>
+            <img class="header__logo" src="statics/Group.png">
+        </div>
     
-    <div class="header__right">
-        <img class="header__divider" src="statics/divider.svg">
-        <button class="header__button-repair"></button>
-        <button class="header__button-checkstatus"></button>
-    </div>
+    
+        <div class="header__right">
+            <img class="header__divider" src="statics/divider.svg">
+            <button class="header__button-repair"></button>
+            <button class="header__button-checkstatus"></button>
+        </div>
+
+    </header>
  
-</header>
- 
- <main class="main">
+    <main class="main">
+        <span class="main__highlight"></span>   
+        <h1 class="main__heading">Услуги и сервисы</h1>
+        <nav class="main__navigation">
+            <button class="main__button main__button--selection--selected">Ремонтируемые устройства</button>
+            <button class="main__button">Дополнительные услуги</button>
+        </nav>
 
  </main>
 </body>

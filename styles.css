@@ -1,7 +1,137 @@
 body {
-background-color: aquamarine;
+    margin: 0;
+    font-family: 'TTLakes', sans-serif;
+}
+
+button {
+    font-family: inherit;
 }
 
 .header {
     display: flex;
+    padding-top: 18.59px;
+    padding-bottom: 18.59px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header__left {
+    display:flex;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.header__right {
+    align-self: center;
+}
+
+.header__button-burger {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(statics/burger.svg);
+    margin-right: 16px;
+    align-self: center;
+}
+
+.header__logo {
+    width: 96.55px;
+    height: 50.81px;
+}
+
+.header__divider {
+    margin-right: 10px;
+}
+
+.header__button-repair {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(statics/repair.svg);
+    margin-right: 16px;
+}
+
+.header__button-checkstatus {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(statics/checkstatus.svg);
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    font-weight: 400;
+    src: url(statics/TTLakes-Regular.eot),
+         url(statics/TTLakes-Regular.ttf) format('truetype'),
+         url(statics/TTLakes-Regular.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    font-weight: 500;
+    src: url(statics/TTLakes-Medium.eot),
+         url(statics/TTLakes-Medium.ttf) format('truetype'),
+         url(statics/TTLakes-Medium.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    font-weight: 700;
+    src: url(statics/TTLakes-Bold.eot),
+         url(statics/TTLakes-Bold.ttf) format('truetype'),
+         url(statics/TTLakes-Bold.woff) format('woff');
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8F8F8;
+}
+
+.main__highlight {
+    margin-top: 24px;
+    margin-right: 12px;
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.main__heading {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 24px;
+}
+
+.main__navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 16px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.main__navigation::-webkit-scrollbar {
+    display: none;
+  }
+
+.main__button {
+    font-size: 16px;
+    border: none;
+    background: none;
+    padding: 8px 16px;
+    color: #7E7E82;
+}
+
+.main__button--selection--selected {
+   border: 2px solid #B8FFEC;
+   background-color: #FFFFFF;
+   border-radius: 6px;
 }
