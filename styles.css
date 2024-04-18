@@ -178,3 +178,38 @@ button {
     width: 100%;
 }
 
+.header__button-call {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-right: 16px;
+    background-image: url(statics/call.svg);
+}
+
+.header__button-chat {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-right: 16px;
+    background-image: url(statics/chat.svg);
+}
+
+.header__button-profile {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    background-image: url(statics/profile.svg);
+}
+
+.header__center {
+    align-self: center;
+    margin-right: 16px;
+}
+
+
+
+
+
