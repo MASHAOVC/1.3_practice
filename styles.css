@@ -43,8 +43,13 @@ button {
     height: 50.81px;
 }
 
-.header__divider {
-    margin-right: 10px;
+.header__divider-right {
+    margin-right: 20px;
+}
+
+.header__divider-left {
+    margin-right: 20px;
+    display: none;
 }
 
 .header__button-repair {
@@ -155,6 +160,10 @@ button {
     margin-bottom: 0;
 }
 
+.main__text-aboutus-2d {
+    margin-top: 24px;
+}
+
 .main__readmore {
     display: flex;
     font-weight: 500;
@@ -206,7 +215,77 @@ button {
 
 .header__center {
     align-self: center;
-    margin-right: 16px;
+    margin-right: 20px;
+    display: none;
+}
+
+.main__text-aboutus-2d {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .main__section-aboutus {
+        display: flex;
+        margin-right: 24px;
+        margin-left: 24px;
+        gap: 48px;
+        flex-basis: 0;
+    }
+
+    .main__image-aboutus {
+        width: 100%;
+    }
+
+    .main__readmore {
+        margin-top: 10px;
+    }
+
+    .main__text-aboutus-2d {
+        display: block;
+        margin-right: 0;
+    }
+
+    .header__center {
+        display: block;
+    }
+
+    .header__button-burger {
+        margin-right: 20px;
+    }
+
+    .header {
+        padding: 24px;
+    }
+
+    .header__divider-left {
+        display: block;
+    }
+
+    .main__highlight {
+        margin-right: 20px;
+    }
+
+    .main__heading-line {
+        margin-bottom: 32px;
+    }
+
+    .main__heading {
+        margin-bottom: 0;
+    }
+
+    .main__navigation {
+        margin-left: 24px;
+    }
+
+    .main__text-aboutus {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main__aboutus-wrapper {
+        flex-grow: 2;
+    }
+    
 }
 
 
