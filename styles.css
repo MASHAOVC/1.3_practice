@@ -227,6 +227,18 @@ button {
     display: none;
 }
 
+.header__repair-text {
+    display: none;
+}
+
+.header__checkstatus-text {
+    display: none;
+}
+
+.main__text-aboutus-3d {
+    display: none;
+}
+
 
 @media screen and (min-width: 768px) {
     .main__section-aboutus {
@@ -293,7 +305,6 @@ button {
     .main__navigation {
         flex-wrap: wrap;
         margin-left: 32px;
-        margin-bottom: 16px;
     }
 
     .main__heading-line {
@@ -339,7 +350,9 @@ button {
     }
 
     .header__right {
+        display: flex;
         margin-bottom: 8px;
+        align-items: center;
     }
 
     body {
@@ -358,6 +371,32 @@ button {
         margin-left: 32px;
     }
 
+    .main__button {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .header__repair-text {
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 9px;
+    }
+
+    .header__checkstatus-text {
+        display: inline-block;
+        font-weight: 500;
+        margin-right: 9px;
+    }
+
+    .main__text-aboutus-3d {
+        display: inline-block;
+    }
+
+    .main__aboutus-wrapper {
+        margin-top: 16px;
+    }
+
+    
     
 
 
