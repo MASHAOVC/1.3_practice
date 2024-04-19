@@ -223,6 +223,11 @@ button {
     display: none;
 }
 
+.header__heading-line {
+    display: none;
+}
+
+
 @media screen and (min-width: 768px) {
     .main__section-aboutus {
         display: flex;
@@ -230,10 +235,6 @@ button {
         margin-left: 24px;
         gap: 48px;
         flex-basis: 0;
-    }
-
-    .main__image-aboutus {
-        width: 100%;
     }
 
     .main__readmore {
@@ -283,12 +284,84 @@ button {
     }
 
     .main__aboutus-wrapper {
-        flex-grow: 2;
+        width: 70%;
     }
     
 }
 
+@media screen and (min-width: 1120px) {
+    .main__navigation {
+        flex-wrap: wrap;
+        margin-left: 32px;
+        margin-bottom: 16px;
+    }
+
+    .main__heading-line {
+        display: none;
+    }
+
+    .header__left {
+        display: none;
+    }
+
+    .header__center {
+        display: none;
+    }
+
+    .header__divider-right {
+        display: none;
+    }
+
+    .header {
+        background-color: #F8F8F8;
+        padding: 0;
+    }
+
+    .header__heading-line {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .header__highlight {
+        margin-right: 30px;
+        width: 4px;
+        height: 40px;
+        background-color: #41F6D7;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .header__heading {
+        font-weight: 700;
+        font-size: 28px;
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+
+    .header__right {
+        margin-bottom: 8px;
+    }
+
+    body {
+        padding-top: 42px;
+        padding-right: 25px;
+        padding-bottom: 49px;
+    }
+
+    .main {
+        padding-bottom: 0;
+    }
+
+    .main__section-aboutus {
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 32px;
+    }
+
+    
 
 
 
 
+
+}
