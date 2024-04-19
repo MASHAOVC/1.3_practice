@@ -219,10 +219,6 @@ button {
     display: none;
 }
 
-.main__text-aboutus-2d {
-    display: none;
-}
-
 .header__heading-line {
     display: none;
 }
@@ -235,8 +231,9 @@ button {
     display: none;
 }
 
-.main__text-aboutus-3d {
-    display: none;
+.main__paragraphs-aboutus-wrapper {
+    max-height: 90px;
+    overflow: hidden;
 }
 
 
@@ -296,8 +293,15 @@ button {
     }
 
     .main__aboutus-wrapper {
-        width: 70%;
+        width: 50%;
     }
+
+    .main__image-aboutus-wrapper {
+        width: 50%;
+    }
+
+    .main__paragraphs-aboutus-wrapper {
+        max-height: 160px;
     
 }
 
@@ -367,8 +371,9 @@ button {
 
     .main__section-aboutus {
         margin-right: 0;
-        margin-top: 0;
+        margin-top: 16px;
         margin-left: 32px;
+        display: flex;
     }
 
     .main__button {
@@ -388,19 +393,23 @@ button {
         margin-right: 9px;
     }
 
-    .main__text-aboutus-3d {
-        display: inline-block;
-    }
-
     .main__aboutus-wrapper {
-        margin-top: 16px;
+        margin-top: 9px;
+        width: 50%;
     }
 
-    
-    
+    .main__image-aboutus-wrapper {
+        width: 50%;
+    }
 
+    .main__paragraphs-aboutus-wrapper {
+        max-height: 160px;
 
+    }
 
+    .header__checkstatus-text {
+        margin-left: 16px;
+    }
 
 
 }
